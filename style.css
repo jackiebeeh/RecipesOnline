@@ -1,0 +1,14 @@
+/* Recipes online */
+
+h1 {
+    color: rgb(126, 25, 20);
+    font-size: 40px;
+    font-family: fantasy;
+    background-color: seashell;
+}
+
+.link {
+    color: rgba(202, 163, 163, 0.74);
+    font-family: fantasy;
+    font-weight: bold;
+}

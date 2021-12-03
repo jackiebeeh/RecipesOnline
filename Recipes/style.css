@@ -1,0 +1,49 @@
+/* Pages */
+
+h1 {
+    color: rgb(126, 25, 20);
+    font-size: 40px;
+    font-family: fantasy;
+    background-color: seashell;
+    text-align: center;
+}
+
+button {
+    color: rgba(173, 129, 117, 0.877);
+    background-color: papayawhip;
+    font-family: fantasy;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    background-color: rgba(173, 129, 117, 0.877);
+    font-family: fantasy;
+    text-align: center;
+}
+
+h3 {
+    background-color: rgba(197, 170, 176, 0.63);
+    color: rgb(109, 69, 63);
+    font-family: fantasy;
+    text-align: center;
+}
+
+h4 {
+    color: rgb(109, 69, 63);
+    font-family: fantasy;
+    text-align: center;
+}
+
+dt {
+    color: rgb(109, 69, 63);
+    font-family: fantasy;
+    text-align: center;
+
+}
+
+li {
+    color: rgb(109, 69, 63);
+    font-family: fantasy;
+    text-align: left;
+}
