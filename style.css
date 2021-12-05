@@ -9,36 +9,30 @@
 	     url('./Fonts/reey/Reey-Regular.otf') format('svg');
 }
 @font-face{ 
-	font-family: 'Impact_Label_Reversed';
-	src: url('impact-label/Impact_Label_Reversed.ttf');
-	src: url('impact-label/Impact_Label_Reversed.ttf') format('eot'),
-	     url('impact-label/Impact_Label_Reversed.ttf') format('woff'),
-	     url('impact-label/Impact_Label_Reversed.ttf') format('truetype'),
-	     url('impact-label/Impact_Label_Reversed.ttf') format('svg');
+	font-family: 'Daniel';
+	src: url('./Fonts/daniel/Daniel-Black.otf');
+	src: url('./Fonts/daniel/Daniel-Black.otf') format('eot'),
+	     url('./Fonts/daniel/Daniel-Black.otf') format('woff'),
+	     url('./Fonts/daniel/Daniel-Black.otf') format('truetype'),
+	     url('./Fonts/daniel/Daniel-Black.otf') format('svg');
 }        
 
 body {
+    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-size: cover;
     background-image: url(./v800-mynt-25.jpg)
-    
 }
 
 h1 {
     color: rgb(255, 255, 255);
     font-size: 40px;
     font-family: "Reey";
-    background-color: rgb(#BFA79F);
+    background-color: rgb(#8f7b75);
     text-align: center;
-}
-
-button {
-    text-align: center;
-    font-family: "Impact_Label_Reversed", fantasy;
-    color: black;
-    background-color: black;
-    }
-
-button:hover {
-    background-color: beige;
+    margin-bottom: 80px;
 }
 a {
     color: white;
@@ -50,4 +44,12 @@ a:hover {
 }
 dt {
     text-align: center;
+    font-family: "Daniel";
+    margin-bottom: 30px;
+    font-style: bold;
 }    
+h6 {
+    margin-top: 200px;
+    color: white;
+    font-family: "Daniel";
+}
