@@ -8,12 +8,12 @@
 	     url('./Fonts/reey/Reey-Regular.otf') format('svg');
 }
 @font-face{ 
-	font-family: 'Daniel';
-	src: url('./Fonts/daniel/Daniel-Black.otf');
-	src: url('./Fonts/daniel/Daniel-Black.otf') format('eot'),
-	     url('./Fonts/daniel/Daniel-Black.otf') format('woff'),
-	     url('./Fonts/daniel/Daniel-Black.otf') format('truetype'),
-	     url('./Fonts/daniel/Daniel-Black.otf') format('svg');
+	font-family: 'Harting';
+	src: url('../Fonts/Harting/Harting_plain.ttf');
+	src: url('../Fonts/Harting/Harting_plain.ttf') format('eot'),
+	     url('../Fonts/Harting/Harting_plain.ttf') format('woff'),
+	     url('../Fonts/Harting/Harting_plain.ttf') format('truetype'),
+	     url('../Fonts/Harting/Harting_plain.ttf') format('svg');
 } 
 @font-face{ 
 	font-family: 'Caroni';
@@ -38,7 +38,7 @@ h1 {
     color: rgb(255, 255, 255);
     font-size: 40px;
     font-family: "Reey";
-    background-color: rgb(#8f7b75);
+    background-color: #8f7b757c;
     text-align: center;
     margin-bottom: 80px;
 }
@@ -48,33 +48,37 @@ a {
     text-decoration: none;
 }
 a:hover {
-    color: black;
+    color: #796d69;
     text-decoration: none;
 }
 a,
 a:hover {
     font-family: "Daniel";
+    font-size: 20px;
 
 }
 
 h2 {
     color: white;
     background-color: #cbc2ba77;
-    font-family: "Daniel";
+    font-family: "Harting";
     text-align: center;
+    font-size: 30px;
 }
 
 h3 {
     background-color: #bfa79f8e;
     color: white;
-    font-family: "Daniel";
+    font-family: "Harting";
     text-align: center;
+    font-size: 25px;
 }
 
 h4 {
     color: #86756f;
     font-family: "Caroni";
     text-align: center;
+    font-size: 25px;
 }
 
 h6 {
@@ -84,14 +88,16 @@ h6 {
 }
 
 dt {
-    color: rgb(109, 69, 63);
+    color: #796d69;
     font-family: "Caroni";
     text-align: center;
+    font-size: 25px;
 
 }
 
 li {
-    color: rgb(109, 69, 63);
+    color: #796d69;
     font-family: fantasy;
     text-align: left;
+    font-size: 20px;
 }
