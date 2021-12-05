@@ -1,14 +1,24 @@
 /* Recipes online */
 
+body {
+    background-color: rgb(243, 238, 232);
+}
 h1 {
-    color: rgb(126, 25, 20);
+    color: rgb(255, 255, 255);
     font-size: 40px;
     font-family: fantasy;
-    background-color: seashell;
+    background-color: rgb(124, 101, 85);
+    text-align: center;
 }
 
 .link {
     color: rgba(202, 163, 163, 0.74);
     font-family: fantasy;
-    font-weight: bold;
+}
+button {
+    text-align: center;
+    @font-face {
+        font-family: "ElliotSix";
+    }
+    }
 }
