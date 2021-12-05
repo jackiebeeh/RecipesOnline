@@ -1,43 +1,91 @@
 /* Pages */
-
+@font-face{ 
+	font-family: 'Reey';
+	src: url('./Fonts/reey/Reey-Regular.otf');
+	src: url('./Fonts/reey/Reey-Regular.otf') format('eot'),
+	     url('./Fonts/reey/Reey-Regular.otf') format('woff'),
+	     url('./Fonts/reey/Reey-Regular.otf') format('truetype'),
+	     url('./Fonts/reey/Reey-Regular.otf') format('svg');
+}
+@font-face{ 
+	font-family: 'Daniel';
+	src: url('./Fonts/daniel/Daniel-Black.otf');
+	src: url('./Fonts/daniel/Daniel-Black.otf') format('eot'),
+	     url('./Fonts/daniel/Daniel-Black.otf') format('woff'),
+	     url('./Fonts/daniel/Daniel-Black.otf') format('truetype'),
+	     url('./Fonts/daniel/Daniel-Black.otf') format('svg');
+} 
+@font-face{ 
+	font-family: 'Caroni';
+	src: url('../Fonts/caroni/Caroni-Regular.otf');
+	src: url('../Fonts/caroni/Caroni-Regular.otf') format('eot'),
+	     url('../Fonts/caroni/Caroni-Regular.otf') format('woff'),
+	     url('../Fonts/caroni/Caroni-Regular.otf') format('truetype'),
+	     url('../Fonts/caroni/Caroni-Regular.otf') format('svg');
+} 
+body {
+    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-size: cover;
+    background-image: url(../v800-mynt-25.jpg);
+    
+    
+    
+}
 h1 {
-    color: rgb(126, 25, 20);
+    color: rgb(255, 255, 255);
     font-size: 40px;
-    font-family: fantasy;
-    background-color: seashell;
+    font-family: "Reey";
+    background-color: rgb(#8f7b75);
     text-align: center;
+    margin-bottom: 80px;
 }
 
-button {
-    color: rgba(173, 129, 117, 0.877);
-    background-color: papayawhip;
-    font-family: fantasy;
-    text-align: center;
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+a,
+a:hover {
+    font-family: "Daniel";
+
 }
 
 h2 {
     color: white;
-    background-color: rgba(173, 129, 117, 0.877);
-    font-family: fantasy;
+    background-color: #cbc2ba77;
+    font-family: "Daniel";
     text-align: center;
 }
 
 h3 {
-    background-color: rgba(197, 170, 176, 0.63);
-    color: rgb(109, 69, 63);
-    font-family: fantasy;
+    background-color: #bfa79f8e;
+    color: white;
+    font-family: "Daniel";
     text-align: center;
 }
 
 h4 {
-    color: rgb(109, 69, 63);
-    font-family: fantasy;
+    color: #86756f;
+    font-family: "Caroni";
     text-align: center;
+}
+
+h6 {
+    margin-top: 200px;
+    color: white;
+    font-family: "Daniel";
 }
 
 dt {
     color: rgb(109, 69, 63);
-    font-family: fantasy;
+    font-family: "Caroni";
     text-align: center;
 
 }
