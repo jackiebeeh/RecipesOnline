@@ -1,24 +1,53 @@
 /* Recipes online */
 
-body {
-    background-color: rgb(243, 238, 232);
+@font-face{ 
+	font-family: 'Reey';
+	src: url('./Fonts/reey/Reey-Regular.otf');
+	src: url('./Fonts/reey/Reey-Regular.otf') format('eot'),
+	     url('./Fonts/reey/Reey-Regular.otf') format('woff'),
+	     url('./Fonts/reey/Reey-Regular.otf') format('truetype'),
+	     url('./Fonts/reey/Reey-Regular.otf') format('svg');
 }
+@font-face{ 
+	font-family: 'Impact_Label_Reversed';
+	src: url('impact-label/Impact_Label_Reversed.ttf');
+	src: url('impact-label/Impact_Label_Reversed.ttf') format('eot'),
+	     url('impact-label/Impact_Label_Reversed.ttf') format('woff'),
+	     url('impact-label/Impact_Label_Reversed.ttf') format('truetype'),
+	     url('impact-label/Impact_Label_Reversed.ttf') format('svg');
+}        
+
+body {
+    background-image: url(./v800-mynt-25.jpg)
+    
+}
+
 h1 {
     color: rgb(255, 255, 255);
     font-size: 40px;
-    font-family: fantasy;
-    background-color: rgb(124, 101, 85);
+    font-family: "Reey";
+    background-color: rgb(#BFA79F);
     text-align: center;
 }
 
-.link {
-    color: rgba(202, 163, 163, 0.74);
-    font-family: fantasy;
-}
 button {
     text-align: center;
-    @font-face {
-        font-family: "ElliotSix";
+    font-family: "Impact_Label_Reversed", fantasy;
+    color: black;
+    background-color: black;
     }
-    }
+
+button:hover {
+    background-color: beige;
 }
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+dt {
+    text-align: center;
+}    
