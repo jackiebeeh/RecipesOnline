@@ -11,7 +11,7 @@
 	font-family: 'Harting';
 	src: url('../Fonts/Harting/Harting_plain.ttf');
 	src: url('../Fonts/Harting/Harting_plain.ttf') format('eot'),
-	     url('../Fonts/Harting/Harting_plain.ttf') format('woff'),
+	     url('../Fonts/Harting/Harting_plain.woff') format('woff'),
 	     url('../Fonts/Harting/Harting_plain.ttf') format('truetype'),
 	     url('../Fonts/Harting/Harting_plain.ttf') format('svg');
 } 
