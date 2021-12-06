@@ -6,7 +6,7 @@
 	src: url('../Fonts/reey/Reey-Regular.otf') format('eot'),
 	     url('../Fonts/reey/Reey-Regular.woff') format('woff'),
 	     url('../Fonts/reey/Reey-Regular.otf') format('truetype'),
-	     url('../Fonts/reey/Reey-Regular.otf') format('svg');
+	     url('../Fonts/reey/Reey-Regular.svg') format('svg');
 }
 
 @font-face{ 
@@ -15,7 +15,7 @@
 	src: url('../Fonts/Harting/Harting_plain.ttf') format('eot'),
 	     url('../Fonts/Harting/Harting_plain.woff') format('woff'),
 	     url('../Fonts/Harting/Harting_plain.ttf') format('truetype'),
-	     url('../Fonts/Harting/Harting_plain.ttf') format('svg');
+	     url('../Fonts/Harting/Harting_plain.svg') format('svg');
 } 
 
 @font-face{ 
@@ -24,16 +24,16 @@
 	src: url('../Fonts/caroni/Caroni-Regular.otf') format('eot'),
 	     url('../Fonts/caroni/Caroni-Regular.woff') format('woff'),
 	     url('../Fonts/caroni/Caroni-Regular.otf') format('truetype'),
-	     url('../Fonts/caroni/Caroni-Regular.otf') format('svg');
+	     url('../Fonts/caroni/Caroni-Regular.svg') format('svg');
 } 
 
 @font-face{ 
 	font-family: 'Daniel';
-	src: url('./Fonts/daniel/Daniel-Black.otf');
-	src: url('./Fonts/daniel/Daniel-Black.otf') format('eot'),
-	     url('./Fonts/daniel/Daniel-Black.woff') format('woff'),
-	     url('./Fonts/daniel/Daniel-Black.otf') format('truetype'),
-	     url('./Fonts/daniel/Daniel-Black.otf') format('svg');
+	src: url('../Fonts/daniel/Daniel-Black.otf');
+	src: url('../Fonts/daniel/Daniel-Black.otf') format('eot'),
+	     url('../Fonts/daniel/Daniel-Black.woff') format('woff'),
+	     url('../Fonts/daniel/Daniel-Black.otf') format('truetype'),
+	     url('../Fonts/daniel/Daniel-Black.svg') format('svg');
 } 
 
 body {
