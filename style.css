@@ -4,7 +4,7 @@
 	font-family: 'Reey';
 	src: url('./Fonts/reey/Reey-Regular.otf');
 	src: url('./Fonts/reey/Reey-Regular.otf') format('eot'),
-	     url('./Fonts/reey/Reey-Regular.otf') format('woff'),
+	     url('./Fonts/reey/Reey-Regular.woff') format('woff'),
 	     url('./Fonts/reey/Reey-Regular.otf') format('truetype'),
 	     url('./Fonts/reey/Reey-Regular.otf') format('svg');
 }
@@ -12,7 +12,7 @@
 	font-family: 'Daniel';
 	src: url('./Fonts/daniel/Daniel-Black.otf');
 	src: url('./Fonts/daniel/Daniel-Black.otf') format('eot'),
-	     url('./Fonts/daniel/Daniel-Black.otf') format('woff'),
+	     url('./Fonts/daniel/Daniel-Black.woff') format('woff'),
 	     url('./Fonts/daniel/Daniel-Black.otf') format('truetype'),
 	     url('./Fonts/daniel/Daniel-Black.otf') format('svg');
 }        

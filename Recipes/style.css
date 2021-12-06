@@ -1,11 +1,11 @@
 /* Pages */
 @font-face{ 
 	font-family: 'Reey';
-	src: url('./Fonts/reey/Reey-Regular.otf');
-	src: url('./Fonts/reey/Reey-Regular.otf') format('eot'),
-	     url('./Fonts/reey/Reey-Regular.otf') format('woff'),
-	     url('./Fonts/reey/Reey-Regular.otf') format('truetype'),
-	     url('./Fonts/reey/Reey-Regular.otf') format('svg');
+	src: url('../Fonts/reey/Reey-Regular.otf');
+	src: url('../Fonts/reey/Reey-Regular.otf') format('eot'),
+	     url('../Fonts/reey/Reey-Regular.woff') format('woff'),
+	     url('../Fonts/reey/Reey-Regular.otf') format('truetype'),
+	     url('../Fonts/reey/Reey-Regular.otf') format('svg');
 }
 @font-face{ 
 	font-family: 'Harting';
@@ -19,7 +19,7 @@
 	font-family: 'Caroni';
 	src: url('../Fonts/caroni/Caroni-Regular.otf');
 	src: url('../Fonts/caroni/Caroni-Regular.otf') format('eot'),
-	     url('../Fonts/caroni/Caroni-Regular.otf') format('woff'),
+	     url('../Fonts/caroni/Caroni-Regular.woff') format('woff'),
 	     url('../Fonts/caroni/Caroni-Regular.otf') format('truetype'),
 	     url('../Fonts/caroni/Caroni-Regular.otf') format('svg');
 } 
