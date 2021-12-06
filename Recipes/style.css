@@ -1,4 +1,5 @@
-/* Pages */
+/* Recipe-Pages */
+
 @font-face{ 
 	font-family: 'Reey';
 	src: url('../Fonts/reey/Reey-Regular.otf');
@@ -7,6 +8,7 @@
 	     url('../Fonts/reey/Reey-Regular.otf') format('truetype'),
 	     url('../Fonts/reey/Reey-Regular.otf') format('svg');
 }
+
 @font-face{ 
 	font-family: 'Harting';
 	src: url('../Fonts/Harting/Harting_plain.ttf');
@@ -15,6 +17,7 @@
 	     url('../Fonts/Harting/Harting_plain.ttf') format('truetype'),
 	     url('../Fonts/Harting/Harting_plain.ttf') format('svg');
 } 
+
 @font-face{ 
 	font-family: 'Caroni';
 	src: url('../Fonts/caroni/Caroni-Regular.otf');
@@ -32,24 +35,14 @@
 	     url('./Fonts/daniel/Daniel-Black.otf') format('truetype'),
 	     url('./Fonts/daniel/Daniel-Black.otf') format('svg');
 } 
+
 body {
     margin-bottom: 100px;
     margin-top: 50px;
     margin-left: 50px;
     margin-right: 50px;
     background-size: cover;
-    background-image: url(../v800-mynt-25.jpg);
-    
-    
-    
-}
-h1 {
-    color: rgb(255, 255, 255);
-    font-size: 40px;
-    font-family: "Reey";
-    background-color: #8f7b757c;
-    text-align: center;
-    margin-bottom: 80px;
+    background-image: url(../v800-mynt-25.jpg);  
 }
 
 a {
@@ -60,17 +53,26 @@ a:hover {
     color: #796d69;
     text-decoration: none;
 }
-a,
-a:hover {
-    font-family: "Daniel";
-    font-size: 20px;
 
+.a,
+a:hover {
+    font-family: "Daniel",Arial;
+    font-size: 20px;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-family: "Reey";
+    background-color: #8f7b757c;
+    text-align: center;
+    margin-bottom: 80px;
 }
 
 h2 {
     color: white;
     background-color: #cbc2ba77;
-    font-family: "Harting";
+    font-family: "Harting",Arial;
     text-align: center;
     font-size: 30px;
 }
@@ -78,14 +80,14 @@ h2 {
 h3 {
     background-color: #bfa79f8e;
     color: white;
-    font-family: "Harting";
+    font-family: "Harting",Arial;
     text-align: center;
     font-size: 25px;
 }
 
 h4 {
     color: #86756f;
-    font-family: "Caroni";
+    font-family: "Caroni",Arial;
     text-align: center;
     font-size: 25px;
 }
@@ -93,12 +95,12 @@ h4 {
 h6 {
     margin-top: 200px;
     color: white;
-    font-family: "Daniel";
+    font-family: "Daniel",Arial;
 }
 
 dt {
     color: #796d69;
-    font-family: "Caroni";
+    font-family: "Caroni",Arial;
     text-align: center;
     font-size: 25px;
 
