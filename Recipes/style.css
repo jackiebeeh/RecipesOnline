@@ -48,7 +48,9 @@ body {
 a {
     color: white;
     text-decoration: none;
+    font-family: "Daniel",Arial;
 }
+
 a:hover {
     color: #a0918d;
     text-decoration: none;
@@ -57,7 +59,6 @@ dt {
     text-align: center;
     font-family: "Daniel",Arial;
     margin-bottom: 30px;
-    font-style: bold;
 }    
 
 h1 {

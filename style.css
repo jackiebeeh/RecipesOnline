@@ -25,6 +25,15 @@ body {
     background-size: cover;
     background-image: url(./v800-mynt-25.jpg)
 }
+a {
+    color: white;
+    text-decoration: none;
+    font-family: "Daniel",Arial;
+}
+a:hover {
+    color: #a0918d;
+    text-decoration: none;
+}
 
 h1 {
     color: rgb(255, 255, 255);
@@ -34,22 +43,16 @@ h1 {
     text-align: center;
     margin-bottom: 80px;
 }
-a {
+
+h6 {
+    margin-top: 200px;
     color: white;
-    text-decoration: none;
+    font-family: "Daniel",Arial;
 }
-a:hover {
-    color: #a0918d;
-    text-decoration: none;
-}
+
 dt {
     text-align: center;
     font-family: "Daniel",Arial;
     margin-bottom: 30px;
     font-style: bold;
 }    
-h6 {
-    margin-top: 200px;
-    color: white;
-    font-family: "Daniel",Arial;
-}
