@@ -47,17 +47,18 @@ body {
 
 a {
     color: white;
-    text-decoration: none;
-}
-a:hover {
-    color: #796d69;
-    text-decoration: none;
 }
 
+a:hover {
+    color: #796d69;
+}
+
+header,
 .a,
 a:hover {
     font-family: "Daniel",Arial;
     font-size: 20px;
+    text-decoration: none;
 }
 
 h1 {
