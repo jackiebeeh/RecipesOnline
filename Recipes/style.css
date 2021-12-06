@@ -47,19 +47,18 @@ body {
 
 a {
     color: white;
-}
-
-a:hover {
-    color: #796d69;
-}
-
-header,
-.a,
-a:hover {
-    font-family: "Daniel",Arial;
-    font-size: 20px;
     text-decoration: none;
 }
+a:hover {
+    color: #a0918d;
+    text-decoration: none;
+}
+dt {
+    text-align: center;
+    font-family: "Daniel";
+    margin-bottom: 30px;
+    font-style: bold;
+}    
 
 h1 {
     color: rgb(255, 255, 255);
@@ -99,12 +98,11 @@ h6 {
     font-family: "Daniel",Arial;
 }
 
-dt {
+dd {
     color: #796d69;
     font-family: "Caroni",Arial;
     text-align: center;
     font-size: 25px;
-
 }
 
 li {
