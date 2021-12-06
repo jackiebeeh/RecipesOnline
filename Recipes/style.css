@@ -55,7 +55,7 @@ a:hover {
 }
 dt {
     text-align: center;
-    font-family: "Daniel";
+    font-family: "Daniel",Arial;
     margin-bottom: 30px;
     font-style: bold;
 }    
@@ -63,7 +63,7 @@ dt {
 h1 {
     color: rgb(255, 255, 255);
     font-size: 40px;
-    font-family: "Reey";
+    font-family: "Reey",Arial;
     background-color: #8f7b757c;
     text-align: center;
     margin-bottom: 80px;
