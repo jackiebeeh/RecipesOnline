@@ -23,6 +23,15 @@
 	     url('../Fonts/caroni/Caroni-Regular.otf') format('truetype'),
 	     url('../Fonts/caroni/Caroni-Regular.otf') format('svg');
 } 
+
+@font-face{ 
+	font-family: 'Daniel';
+	src: url('./Fonts/daniel/Daniel-Black.otf');
+	src: url('./Fonts/daniel/Daniel-Black.otf') format('eot'),
+	     url('./Fonts/daniel/Daniel-Black.woff') format('woff'),
+	     url('./Fonts/daniel/Daniel-Black.otf') format('truetype'),
+	     url('./Fonts/daniel/Daniel-Black.otf') format('svg');
+} 
 body {
     margin-bottom: 100px;
     margin-top: 50px;
