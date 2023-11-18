@@ -3,8 +3,7 @@
 /* Page Layout */
 body {
     margin: 0;
-    min-height: 100vh;
-    
+    height: 100vh;
     background-image: url('./v800-mynt-25.jpg');
     background-size: cover;
     background-position: center;
@@ -13,30 +12,51 @@ body {
 .body {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
-    min-height: 100vh;
-    /* flex: 1; */
+    height: 100vh;
+    width: auto;
+    flex: 1;
+    justify-content: space-around;
+    gap: 30px;
 }
 
 .header {
-    display: flex;
-    flex-direction: column;
-}
-
-.pageLinks {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    
+    flex-grow: 1;
+    flex-shrink: 2;
+    justify-content: center;
     align-items: center;
-    flex: 1;
+    display: flex;
+    width: 100vh;
 }
 
-.link {
+.mainPage {
+    flex-grow: 6;
+    flex-shrink: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: #8f7b7520;
+}
+
+a, .pageLink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex:1;
-    padding: 10%;
-    text-align: center;
+    width: 100%;
+    height:100%;
+}
+
+.footer {
+    background-color: #8f7b757c;
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 
 /* Fonts */
@@ -46,18 +66,19 @@ body {
 }
 
 @font-face{ 
-	font-family: "Daniel";
-	src: url("./Fonts/daniel/Daniel-Black.woff") format("woff");
+	font-family: "Bonveno";
+	src: url("./Fonts/BonvenoCF-Light.woff") format("woff");
 }
 
 a {
-    color: white;
+    color: #584c49;
     text-decoration: none;
-    font-family: "Daniel",Arial;
+    font-family: "Bonveno",Arial;
 }
 
 a:hover {
-    color: #a0918d;
+    color: #ffffff;
+    background-color: #8f7b7540;
     text-decoration: none;
 }
 
@@ -66,6 +87,9 @@ h1 {
     font-size: 40px;
     font-family: "Reey",Arial;
     background-color: #8f7b757c;
-    text-align: center;
-    margin-bottom: 80px;
+    /* margin-bottom: 80px; */
+}
+.footer {
+    font-family: "Reey", Arial;
+    color: #5c504c;
 }
