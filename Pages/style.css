@@ -1,48 +1,185 @@
-/* Recipe-Pages */
+/* Recipe-Pages StyleSheet*/
 
+/* Fonts */
 @font-face{ 
-	font-family: 'Reey';
-	src: url('../Fonts/reey/Reey-Regular.otf');
-	src: url('../Fonts/reey/Reey-Regular.otf') format('eot'),
-	     url('../Fonts/reey/Reey-Regular.woff') format('woff'),
-	     url('../Fonts/reey/Reey-Regular.otf') format('truetype'),
-	     url('../Fonts/reey/Reey-Regular.svg') format('svg');
+	font-family: "Reey";
+	    src: url("../Fonts/reey/Reey-Regular.woff") format("woff");
 }
 
 @font-face{ 
-	font-family: 'Harting';
-	src: url('../Fonts/Harting/Harting_plain.ttf');
-	src: url('../Fonts/Harting/Harting_plain.ttf') format('eot'),
-	     url('../Fonts/Harting/Harting_plain.woff') format('woff'),
-	     url('../Fonts/Harting/Harting_plain.ttf') format('truetype'),
-	     url('../Fonts/Harting/Harting_plain.svg') format('svg');
-} 
+	font-family: "Bonveno";
+	src: url("../Fonts/BonvenoCF-Light.woff") format("woff");
+}
 
 @font-face{ 
-	font-family: 'Caroni';
-	src: url('../Fonts/caroni/Caroni-Regular.otf');
-	src: url('../Fonts/caroni/Caroni-Regular.otf') format('eot'),
-	     url('../Fonts/caroni/Caroni-Regular.woff') format('woff'),
-	     url('../Fonts/caroni/Caroni-Regular.otf') format('truetype'),
-	     url('../Fonts/caroni/Caroni-Regular.svg') format('svg');
-} 
+	font-family: "Harting";
+	src: url("../Fonts/Harting_plain.woff") format("woff");
+}
 
 @font-face{ 
-	font-family: 'Daniel';
-	src: url('../Fonts/daniel/Daniel-Black.otf');
-	src: url('../Fonts/daniel/Daniel-Black.otf') format('eot'),
-	     url('../Fonts/daniel/Daniel-Black.woff') format('woff'),
-	     url('../Fonts/daniel/Daniel-Black.otf') format('truetype'),
-	     url('../Fonts/daniel/Daniel-Black.svg') format('svg');
-} 
+	font-family: "Caroni";
+	src: url("../Fonts/Caroni-Regular.woff") format("woff");
+}
+/* Page layout */
 
 body {
-    margin-bottom: 100px;
-    margin-top: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin: 0;
+    height: 100%;
+    background-image: url('../v800-mynt-25.jpg');
     background-size: cover;
-    background-image: url('../v800-mynt-25.jpg');  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex:1;
+    gap: 20px;
+}
+
+.header {
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.headerTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex:1;
+}
+
+.headerLinks {
+    display: flex;
+    width: 100%;
+    min-height: 48px;
+    justify-content: space-between;
+    align-items: center;
+    flex:1;
+    background-color: #86756f;
+}
+
+/* This still needs fixing to make it look nicer */
+.leftLinks{
+    flex:1;
+}
+
+.rightLinks {
+    flex: 2;
+} 
+
+
+.hero {
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.heroImage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+img {
+    width: 100vh;
+}
+.heroComment {
+    padding: 30px;
+    margin: 10px;
+    width: 100%;
+    text-align: center;
+    background-color: #86756f40;
+    font-family: "Bonveno",Arial;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.heroInfo {
+    padding: 20px;
+    text-align: center;
+    font-family: "Caroni",Arial;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.ingredients {
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.ingredientsTitle {
+    background-color: #86756f40;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    font-family: "Harting",Arial;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.ingredientsInfo {
+    padding: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: "Caroni",Arial;
+    font-size: 22px;
+    font-weight: 800;
+}
+/* Create the list so that there is space between the amount needed and the item it self */
+.ingredientsList{
+    text-align: center;
+    line-height: 1.8;
+    font-family: "Harting",Arial;
+    font-size: 20px;
+
+}
+.recipeSteps {
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.stepsTitle {
+    background-color: #86756f40;
+    padding: 20px;
+    margin: 10px;
+    width: 100%;
+    text-align: center;
+    font-family: "Harting",Arial;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.stepsList {
+    list-style-type: number;
+    padding: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: "Caroni",Arial;
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 1.8;
+}
+
+.footer {
+    background-color: #8f7b757c;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-family: "Reey", Arial;
+    color: #5c504c;
+    min-height: 40px;
 }
 
 a {
