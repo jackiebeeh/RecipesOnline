@@ -1,4 +1,10 @@
 # Recipes-online
 Online recipe book
 
-Learning to create websites and linking images as well as links and listing ingredients and instructions.
+Photo credits:
+https://www.freepik.com/vectors/abstract 
+Background image 
+- Abstract vector created by rawpixel.com 
+- www.freepik.com
+
+Written by Sanelma Brown
