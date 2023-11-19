@@ -1,25 +1,5 @@
 /* Recipe-Pages StyleSheet*/
 
-/* Fonts */
-@font-face{ 
-	font-family: "Reey";
-	    src: url("../Fonts/reey/Reey-Regular.woff") format("woff");
-}
-
-@font-face{ 
-	font-family: "Bonveno";
-	src: url("../Fonts/BonvenoCF-Light.woff") format("woff");
-}
-
-@font-face{ 
-	font-family: "Harting";
-	src: url("../Fonts/Harting_plain.woff") format("woff");
-}
-
-@font-face{ 
-	font-family: "Caroni";
-	src: url("../Fonts/Caroni-Regular.woff") format("woff");
-}
 /* Page layout */
 
 body {
@@ -45,6 +25,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-family: "Reey",Arial;
+    background-color: #8f7b757c;
+    text-align: center;
+    margin: 30px;
+    width: 100vh;
 }
 
 .navbar {
@@ -53,6 +40,7 @@ body {
    align-items: center;
    justify-content: space-between;
    background-color: #8f7b7520;
+   margin-top: 30px;
 }
 
 .indexLink {
@@ -161,13 +149,13 @@ img {
     font-size: 22px;
     font-weight: 800;
 }
-/* Create the list so that there is space between the amount needed and the item it self */
+/* IDEA: Create the list so that there is space between the amount needed and the item it self */
 .ingredientsList{
     text-align: center;
     line-height: 1.8;
     font-family: "Harting",Arial;
     font-size: 20px;
-
+    list-style: none;
 }
 .recipeSteps {
     flex-grow: 1;
@@ -193,7 +181,7 @@ img {
     list-style-type: number;
     padding: 20px;
     margin-bottom: 10px;
-    text-align: center;
+    text-align: left;
     font-family: "Caroni",Arial;
     font-size: 22px;
     font-weight: 800;
@@ -231,14 +219,5 @@ img {
 @font-face{ 
 	font-family: "Caroni";
 	src: url("../Fonts/Caroni-Regular.woff") format("woff");
-}
-
-h1 {
-    color: rgb(255, 255, 255);
-    font-size: 40px;
-    font-family: "Reey",Arial;
-    background-color: #8f7b757c;
-    text-align: center;
-    margin-bottom: 80px;
 }
 

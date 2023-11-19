@@ -21,6 +21,16 @@ body {
 }
 
 .header {
+    
+}
+
+.headerTitle {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-family: "Reey",Arial;
+    background-color: #8f7b757c;
+    text-align: center;
+    margin: 30px;
     flex-grow: 1;
     flex-shrink: 2;
     justify-content: center;
