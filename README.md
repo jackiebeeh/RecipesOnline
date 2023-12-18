@@ -2,7 +2,7 @@
 # Recipes-online
 Online recipe book
 
-View ive website at:
+View live website at:
 https://jackiebeeh.github.io/RecipesOnline/
 
 Written and designed by Sanelma Brown
