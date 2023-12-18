@@ -11,23 +11,26 @@ Written and designed by Sanelma Brown
 Credits:
 
 Photo credits:
-(Background)
-https://www.freepik.com/vectors/abstract 
+
 Background image 
 - Abstract vector created by rawpixel.com 
 - www.freepik.com
+https://www.freepik.com/vectors/abstract 
 
-(Papa's Spaghetti)
-https://www.freepik.com/vectors/abstract'>Background image 
+
+Papa's Spaghetti
 - Abstract vector created by rawpixel.com 
 - www.freepik.com
+https://www.freepik.com/vectors/abstract'
 
-(Garlic Bread)
-https://www.freepik.com/vectors/abstract'>Background image 
+
+Garlic Bread
 - Abstract vector created by rawpixel.com 
 - www.freepik.com
+https://www.freepik.com/vectors/abstract'
 
-(Boiling Spaghetti)
-https://www.freepik.com/vectors/abstract'>Background image 
+
+Boiling Spaghetti
 - Abstract vector created by rawpixel.com 
 - www.freepik.com
+https://www.freepik.com/vectors/abstract'
