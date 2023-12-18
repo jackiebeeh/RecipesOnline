@@ -21,16 +21,16 @@ https://www.freepik.com/vectors/abstract
 Papa's Spaghetti
 - Abstract vector created by rawpixel.com 
 - www.freepik.com
-https://www.freepik.com/vectors/abstract'
+https://www.freepik.com/vectors/abstract
 
 
 Garlic Bread
 - Abstract vector created by rawpixel.com 
 - www.freepik.com
-https://www.freepik.com/vectors/abstract'
+https://www.freepik.com/vectors/abstract
 
 
 Boiling Spaghetti
 - Abstract vector created by rawpixel.com 
 - www.freepik.com
-https://www.freepik.com/vectors/abstract'
+https://www.freepik.com/vectors/abstract
