@@ -56,45 +56,36 @@ body {
     font-family: "Reey",Arial;
     background-color: #8f7b757c;
 }
+
+/* navbar */
 .navbar {
     width: 100vw;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    background-color: #8f7b7520;
-    margin-top: 30px;
-}
-.indexLink {
-    padding-left: 40px;
-    display: flex;
     justify-content: center;
-    align-items: center;
-    flex-basis: 150px
-}
-.rightLinks{
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    flex-basis: 400px;
-    padding-right: 40px;
+    background-color: #8f7b7520;
+    margin-top: 3rem;
 }
 .pageLink { 
-    display: flex;
+    flex: 1;
     width: 100%;
-    min-height: 48px;
+    height: 80px;
+    display: flex;
     justify-content: center;
     align-items: center;
-    
     font-family: "Bonveno",Arial;
+    font-size: 1.2rem;
     color: #584c49;
-    font-weight: 900;
+    transition: background-color 1s ease-in-out, color 1s ease-in-out;
 }
 .pageLink:hover {
     color: #ffffff;
     background-color: #8f7b7540;
+    transition: background-color .5s ease-in-out, color .5s ease-in-out;
 }
+
+/* Hero */
 .hero {
-    flex-grow: 1;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -113,49 +104,47 @@ img {
     width: 100%;
 }
 .heroComment {
-    padding: 30px;
-    margin: 10px 0;
-    width: 100vw;
+    width: 100%;
+    padding: 2rem;
+    margin: 1rem 0;
     text-align: center;
-    background-color: #86756f40;
     font-family: "Bonveno",Arial;
-    font-weight: 900;
-    font-size: 20px;
+    font-size: 1.8rem;
+    background-color: #86756f40;
 }
 .heroInfo {
-    padding: 20px;
+    padding: 2rem;
     text-align: center;
     font-family: "Caroni",Arial;
-    font-size: 22px;
-    font-weight: 800;
-}
-.ingredients {
-    flex-grow: 1;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    width: 100vw;
-}
-.ingredientsTitle {
-    background-color: #86756f40;
-    padding: 20px 0;
-    width: 100vw;
-    text-align: center;
-    font-family: "Harting",Arial;
-    font-weight: 900;
-    font-size: 40px;
-    color: #ffffff;
-}
-.ingredientsInfo {
-    padding: 20px 0;
-    margin-bottom: 10px;
-    text-align: center;
-    font-family: "Caroni",Arial;
-    font-size: 22px;
+    font-size: 1.5rem;
     font-weight: 800;
 }
 
+/* Ingredients */
+.ingredients {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ingredientsTitle {
+    width: 100vw;
+    padding: 1rem;
+    text-align: center;
+    font-family: "Harting",Arial;
+    font-weight: 900;
+    font-size: 3rem;
+    color: #ffffff;
+    background-color: #86756f40;
+}
+.ingredientsInfo {
+    margin: 1rem;
+    text-align: center;
+    font-family: "Caroni",Arial;
+    font-size: 1.8rem;
+    font-weight: 800;
+}
 /* IDEA: Create the list so that there is space between the amount needed and the item it self */
 .ingredientsList{
     text-align: center;
@@ -164,8 +153,9 @@ img {
     font-size: 20px;
     list-style: none;
 }
+
+/* Steps */
 .recipeSteps {
-    flex-grow: 1;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -185,7 +175,7 @@ img {
 }
 .stepsList {
     list-style-type: number;
-    padding: 20px 0;
+    padding: 20px;
     margin-bottom: 10px;
     text-align: left;
     font-family: "Caroni",Arial;
@@ -197,6 +187,8 @@ img {
     color: #5c504c;
     text-decoration-line: underline;
 }
+
+/* Footer */
 .footer {
     background-color: #8f7b757c;
     display: flex;
