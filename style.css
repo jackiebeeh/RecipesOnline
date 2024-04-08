@@ -1,5 +1,21 @@
 /* Odin Recipes style sheet */
 
+/* Fonts */
+@font-face{ 
+	font-family: "Reey";
+	src: url("./Fonts/reey/Reey-Regular.woff") format("woff");
+}
+@font-face{ 
+	font-family: "Bonveno";
+	src: url("./Fonts/BonvenoCF-Light.woff") format("woff");
+}
+
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     margin: 0;
     height: 100vh;
@@ -15,7 +31,12 @@ body {
     justify-content: space-around;
     gap: 30px;
 }
+a {
+    color: inherit;
+    text-decoration: none; 
+}
 
+/* Page Content */
 .headerTitle {
     color: rgb(255, 255, 255);
     font-size: 40px;
@@ -30,7 +51,6 @@ body {
     display: flex;
     width: 100vh;
 }
-
 .mainPage {
     flex-grow: 6;
     flex-shrink: 1;
@@ -41,7 +61,6 @@ body {
     width: 100%;
     background-color: #8f7b7520;
 }
-
 .pageLink {
     display: flex;
     justify-content: center;
@@ -51,17 +70,17 @@ body {
     height:100%;
     color: #584c49;
     font-family: "Bonveno",Arial;
+    font-size: 1.4rem;
+    transition: background-color 2s ease-in-out, color 2s ease-in-out, font-size .5s ease-in-out;
 }
-
 .pageLink:hover {
     color: #ffffff;
+    font-size: 2rem;
     background-color: #8f7b7540;
+    transition: background-color 1s ease-in-out, color 1s ease-in-out, font-size 1s ease-in-out;
 }
 
-a {
-    text-decoration: none; 
-}
-
+/* Footer */
 .footer {
     background-color: #8f7b757c;
     display: flex;
@@ -71,18 +90,14 @@ a {
     justify-content: center;
     width: 100%;
     height: 40px;
-    font-family: "Reey", Arial;
+    font-family: "Bonveno", Arial;
     color: #5c504c;
 }
-
-/* Fonts */
-
-@font-face{ 
-	font-family: "Reey";
-	    src: url("./Fonts/reey/Reey-Regular.woff") format("woff");
+.footer span {
+    font-family: "Reey", sans-serif;
+    color: inherit;
 }
-
-@font-face{ 
-	font-family: "Bonveno";
-	src: url("./Fonts/BonvenoCF-Light.woff") format("woff");
+.footer span:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }

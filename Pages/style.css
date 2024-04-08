@@ -1,49 +1,69 @@
 /* Recipe-Pages StyleSheet*/
+/* Fonts */
+@font-face{ 
+	font-family: "Reey";
+	    src: url("../Fonts/reey/Reey-Regular.woff") format("woff");
+}
+@font-face{ 
+	font-family: "Bonveno";
+	src: url("../Fonts/BonvenoCF-Light.woff") format("woff");
+}
+@font-face{ 
+	font-family: "Harting";
+	src: url("../Fonts/Harting_plain.woff") format("woff");
+}
+@font-face{ 
+	font-family: "Caroni";
+	src: url("../Fonts/Caroni-Regular.woff") format("woff");
+}
 
-/* Page layout */
-
-body {
+/* General */
+* {
     margin: 0;
-    height: 100%;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    color: inherit;
+    text-decoration: none; 
+}
+
+/* Page Content */
+body {
     width: 100%;
-    background-image: url('../v800-mynt-25.jpg');
-    background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    gap: 20px;
+    background-image: url('../v800-mynt-25.jpg');
+    background-size: cover;
 }
-
 .header {
     justify-content: center;
     align-items: center;
     display: flex;
     flex-direction: column;
-    width: 100%;
 }
 .headerTitle {
+    width: 100vw;
+    margin: 30px 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     color: rgb(255, 255, 255);
     font-size: 40px;
     font-family: "Reey",Arial;
     background-color: #8f7b757c;
-    text-align: center;
-    margin: 30px;
-    width: 100vh;
 }
-
 .navbar {
-   display: flex;
-   width: 100%;
-   align-items: center;
-   justify-content: space-between;
-   background-color: #8f7b7520;
-   margin-top: 30px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #8f7b7520;
+    margin-top: 30px;
 }
-
 .indexLink {
     padding-left: 40px;
     display: flex;
@@ -51,7 +71,6 @@ body {
     align-items: center;
     flex-basis: 150px
 }
-
 .rightLinks{
     display: flex;
     align-items: center;
@@ -70,44 +89,37 @@ body {
     color: #584c49;
     font-weight: 900;
 }
-
 .pageLink:hover {
     color: #ffffff;
     background-color: #8f7b7540;
 }
-
-a {
-    text-decoration: none; 
-}
-
 .hero {
     flex-grow: 1;
     justify-content: center;
     align-items: center;
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 100vw;
 }
 .heroImage {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 100vw;
 }
 img {
     width: 80%;
 }
 .heroComment {
     padding: 30px;
-    margin: 10px;
-    width: 100%;
+    margin: 10px 0;
+    width: 100vw;
     text-align: center;
     background-color: #86756f40;
     font-family: "Bonveno",Arial;
     font-weight: 900;
     font-size: 20px;
 }
-
 .heroInfo {
     padding: 20px;
     text-align: center;
@@ -115,34 +127,33 @@ img {
     font-size: 22px;
     font-weight: 800;
 }
-
 .ingredients {
     flex-grow: 1;
     justify-content: center;
     align-items: center;
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 100vw;
 }
 .ingredientsTitle {
     background-color: #86756f40;
-    padding: 20px;
-    width: 100%;
+    padding: 20px 0;
+    width: 100vw;
     text-align: center;
     font-family: "Harting",Arial;
     font-weight: 900;
     font-size: 40px;
     color: #ffffff;
 }
-
 .ingredientsInfo {
-    padding: 20px;
+    padding: 20px 0;
     margin-bottom: 10px;
     text-align: center;
     font-family: "Caroni",Arial;
     font-size: 22px;
     font-weight: 800;
 }
+
 /* IDEA: Create the list so that there is space between the amount needed and the item it self */
 .ingredientsList{
     text-align: center;
@@ -157,12 +168,12 @@ img {
     align-items: center;
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 100vw;
 }
 .stepsTitle {
     background-color: #86756f40;
-    padding: 20px;
-    margin: 10px;
+    padding: 20px 0;
+    margin: 10px 0;
     width: 100%;
     text-align: center;
     font-family: "Harting",Arial;
@@ -170,10 +181,9 @@ img {
     font-size: 40px;
     color: #ffffff;
 }
-
 .stepsList {
     list-style-type: number;
-    padding: 20px;
+    padding: 20px 0;
     margin-bottom: 10px;
     text-align: left;
     font-family: "Caroni",Arial;
@@ -181,42 +191,25 @@ img {
     font-weight: 800;
     line-height: 1.8;
 }
-
 .stepsLink {
     color: #5c504c;
     text-decoration-line: underline;
 }
-
 .footer {
     background-color: #8f7b757c;
     display: flex;
     flex-grow: 1;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    font-family: "Reey", Arial;
+    width: 100vw;
+    font-family: "Bonveno", Arial;
     color: #5c504c;
     min-height: 40px;
 }
-
-/* Fonts */
-@font-face{ 
-	font-family: "Reey";
-	    src: url("../Fonts/reey/Reey-Regular.woff") format("woff");
+.footer span {
+    font-family: "Reey", sans-serif;
 }
-
-@font-face{ 
-	font-family: "Bonveno";
-	src: url("../Fonts/BonvenoCF-Light.woff") format("woff");
+.footer span:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
-
-@font-face{ 
-	font-family: "Harting";
-	src: url("../Fonts/Harting_plain.woff") format("woff");
-}
-
-@font-face{ 
-	font-family: "Caroni";
-	src: url("../Fonts/Caroni-Regular.woff") format("woff");
-}
-
