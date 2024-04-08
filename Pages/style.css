@@ -35,8 +35,8 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    background-image: url('../v800-mynt-25.jpg');
-    background-size: cover;
+    background-image: linear-gradient(#4e0e47,#841b3a );
+    /* background-size: cover; */
 }
 .header {
     justify-content: center;
@@ -54,7 +54,7 @@ body {
     color: rgb(255, 255, 255);
     font-size: 40px;
     font-family: "Reey",Arial;
-    background-color: #8f7b757c;
+    background-color: #841b3a;
 }
 
 /* navbar */
@@ -63,7 +63,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #8f7b7520;
+    background-color: #841b3a;
     margin-top: 3rem;
 }
 .pageLink { 
@@ -75,12 +75,12 @@ body {
     align-items: center;
     font-family: "Bonveno",Arial;
     font-size: 1.2rem;
-    color: #584c49;
+    color: white;
     transition: background-color 1s ease-in-out, color 1s ease-in-out;
 }
 .pageLink:hover {
     color: #ffffff;
-    background-color: #8f7b7540;
+    background-color: #4e0e475f;
     transition: background-color .5s ease-in-out, color .5s ease-in-out;
 }
 
@@ -110,9 +110,11 @@ img {
     text-align: center;
     font-family: "Bonveno",Arial;
     font-size: 1.8rem;
-    background-color: #86756f40;
+    color: white;
+    background-color: #841b3a;
 }
 .heroInfo {
+    color: white;
     padding: 2rem;
     text-align: center;
     font-family: "Caroni",Arial;
@@ -144,6 +146,7 @@ img {
     font-family: "Caroni",Arial;
     font-size: 1.8rem;
     font-weight: 800;
+    color: white;
 }
 /* IDEA: Create the list so that there is space between the amount needed and the item it self */
 .ingredientsList{
@@ -152,6 +155,7 @@ img {
     font-family: "Harting",Arial;
     font-size: 20px;
     list-style: none;
+    color: white;
 }
 
 /* Steps */
@@ -182,22 +186,23 @@ img {
     font-size: 22px;
     font-weight: 800;
     line-height: 1.8;
+    color: white;
 }
 .stepsLink {
-    color: #5c504c;
+    color: inherit;
     text-decoration-line: underline;
 }
 
 /* Footer */
 .footer {
-    background-color: #8f7b757c;
+    background-color: #4e0e477f;
     display: flex;
     flex-grow: 1;
     align-items: center;
     justify-content: center;
     width: 100vw;
     font-family: "Bonveno", Arial;
-    color: #5c504c;
+    color: white;
     min-height: 40px;
 }
 .footer span {
